@@ -1,0 +1,17 @@
+{
+    "categories": [
+        {
+        "id": 1,
+        "name": "Kitchen",
+        "totalBudget": 3000,
+        "currentBudget": 1,
+        "entries":[]
+        }, 
+        {
+            "id": 1,
+            "name": "Living Room",
+            "totalBudget": 3000,
+            "currentBudget": 1   
+            }
+    ]
+}
