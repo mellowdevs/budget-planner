@@ -1,17 +1,1 @@
-{
-    "categories": [
-        {
-        "id": 1,
-        "name": "Kitchen",
-        "totalBudget": 3000,
-        "currentBudget": 1,
-        "entries":[]
-        }, 
-        {
-            "id": 1,
-            "name": "Living Room",
-            "totalBudget": 3000,
-            "currentBudget": 1   
-            }
-    ]
-}
+{"categories":{"5cdb1547-558f-420e-a71b-5831c1b9c59f":{"id":"5cdb1547-558f-420e-a71b-5831c1b9c59f","name":"Kitchen","totalBudget":5000,"currentBudget":600,"entries":{"0995df10-ccdb-4125-b706-a75990d9aa2d":{"id":"0995df10-ccdb-4125-b706-a75990d9aa2d","provider":"Mellow2","amount":250,"note":"new2"},"55addac5-ddb7-4667-a8ad-f9ec4d04a695":{"id":"55addac5-ddb7-4667-a8ad-f9ec4d04a695","provider":"Mellow2","amount":350,"note":"new"}}}},"totalBudget":5000,"currentBudget":600}
