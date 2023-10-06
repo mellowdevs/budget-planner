@@ -7,12 +7,14 @@ const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 // route
-const routes = require('./routes/Routes')
-app.use('/', routes)
+
 
 app.get('/', (req, res) => {
     res.json({'message': 'ok'});
   })
+const routes = require('./routes/Routes')
+app.use('/', routes)
+
   
 //start server
 app.listen(3000, ()=>{
