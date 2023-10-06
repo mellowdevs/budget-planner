@@ -24,7 +24,7 @@ return;
 });
   
 //start server
-app.listen(3000,'0.0.0.0', ()=>{
+app.listen(process.env.PORT || 3000,'0.0.0.0', ()=>{
     console.log("listeniing at port:3000")
 }) 
 
