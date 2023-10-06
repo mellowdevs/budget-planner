@@ -1,5 +1,5 @@
 const express = require("express")
-const router = express.Router();
+const dataRoutes = express.Router();
 const fs = require('fs');
 const { randomUUID } = require("crypto");            
 
@@ -145,7 +145,5 @@ dataRoutes.delete('/entry/:entryId', (req, res) => {
   res.send(existingData)
 })
 
-
-module.exports = dataRoutes
 
 module.exports = router;
