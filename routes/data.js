@@ -39,7 +39,8 @@ const recalculateAmounts = (data) => {
   data.totalBudget  = totalBudget;
 }
 
-dataRoutes.get('/list', (req, res) => {
+
+dataRoutes.get('/', (req, res) => {
   const existingData = getData();
   res.send(JSON.stringify(existingData, null, 2));
 })
