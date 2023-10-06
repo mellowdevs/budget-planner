@@ -24,12 +24,7 @@
     "nodemon": "^3.0.1",
     "routes": "^2.1.0"
   },
-  {
-    "name": "api-make",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "engines": {
-      "node": "14.x"
-    }
+  "engines": {
+    "node": "14.x"
+  }
 }
